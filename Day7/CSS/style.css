@@ -1,0 +1,45 @@
+body
+{
+    height: 500vh;
+    /* width: 95vw; */
+    background-image: url("../Assets/Images/cat_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+} 
+.container
+{
+    border: solid beige 2px;
+    padding: 5px;
+    margin: 2px;
+    background-color: rgba(253, 216, 5, 0.199);
+}
+
+.colorName
+{
+    border: solid 2px black;
+    margin-bottom: 2px;
+    color: aqua;
+}
+
+.colorHex
+{
+    border: solid 2px black;
+    margin-bottom: 2px;
+    color: #00ffff
+}
+
+.colorRGB
+{
+    border: solid 2px black;
+    margin-bottom: 2px;
+    color: rgb(0, 255, 255)
+}
+
+.colorRGBA
+{
+    border: solid 2px black;
+    margin-bottom: 2px;
+    color: rgba(0, 255, 255, 0.734);
+}

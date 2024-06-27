@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&display=swap');
+.box{
+    /* height: 450px; */
+    width: 200px;
+    border: solid black 3px;
+    border-color: darkviolet;
+    border-radius: 50px;
+    padding: 20px;
+    color: rgb(139, 0, 37);
+    font-family: "Playwrite ES", cursive;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.divClass
+{
+    background-color: aqua;
+    /* height: 900px; */
+    width: 250px;
+    /* border: solid black 2px; */
+    padding: 20px;
+    border-width: 20px;
+    border-style: ridge;
+    border-color: rgb(255, 0, 191);
+    border-radius: 50px;
+    margin: 20px;
+    font-family: cursive;
+    font-size: 20px;
+}

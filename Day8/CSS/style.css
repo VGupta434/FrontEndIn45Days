@@ -1,0 +1,76 @@
+.Box
+{
+    top: 20px;
+    left: 20px;
+    position: static;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: yellow;
+}
+
+.num2
+{
+    top: 5px;
+    left: 10px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: yellow;
+}
+
+.parent
+{
+    background-color: gray;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.absBox
+{
+    background-color: green;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.fixedPos
+{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    background-color: rgba(0, 255, 255, 0.174);
+    color: rgba(137, 43, 226, 0.17);
+    border: 1px solid rgb(251, 4, 99);
+}
+.image2
+{
+    position: sticky;
+    top: 10px;
+    border: 10px solid black;
+    padding: 2px;
+}
+
+.floatAndClear 
+{
+    .floatingBox
+    {
+        float: left;
+        height: 150px;
+        width: 50px;
+        background-color: darkkhaki;
+        /* clear: both; */
+    }
+    .clearText
+    {
+        clear: left;
+    }
+}
