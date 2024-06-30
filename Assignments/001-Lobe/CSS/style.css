@@ -130,5 +130,64 @@
 }
 .lower-title
 {
-
+    font-size: 4rem;
+    color: #333;
+    width: 70%;
 }
+.horizontal-rule-after-hero-section
+{
+    width: 90%;
+    color: #767676;
+}
+/* Hero section styles end here */
+
+/* Footer styles starts here */
+.footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 10%;
+}
+.footer-component-column
+{
+    width: 20%;
+    /* height: 10%; */
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-link-item
+{
+    text-decoration: none;
+    white-space: nowrap;
+    color: #767676;
+}
+/* .copyright-info
+{
+    width: 20%;
+    margin: 25px;
+}
+.footer-about
+{
+    width: 15%;
+    margin: 25px;
+}
+.footer-general
+{    
+    width: 15%;
+    margin: 25px;
+}
+.footer-resources
+{    
+    width: 15%;
+    margin: 25px;
+}
+.footer-social
+{
+    width: 15%;
+    margin: 25px;
+} */
+/* Footer styles ends here */
