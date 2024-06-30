@@ -1,0 +1,48 @@
+.container
+{
+    height: 80vh;
+    background-color: bisque;
+    border: 2px black solid;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    /* justify content main axis,(x axis if flex direction is row, y axis if flex dirextion is column), i.e. direction in which flex direction is in */
+    justify-content: space-around ;
+    /* align item is for the other remaining axis, i.e y axis in case of flex direction is row, x axis in case of flex direction is column */
+    align-items:flex-start;
+    flex-wrap: wrap;
+    /* align-content: center; */
+}
+.container .box
+{
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#box1
+{
+    background-color: purple;
+}
+
+#box2
+{
+    background-color: blue;
+}
+
+#box3
+{
+    background-color: red;
+}
+
+#box4
+{
+    background-color: green;
+}
+
+#box5
+{
+    background-color: yellow;
+}
