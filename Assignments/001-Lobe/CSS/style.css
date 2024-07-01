@@ -21,7 +21,7 @@
     backdrop-filter: blur( 2px );    display: flex;
     justify-content: space-between;
     padding: 15px;
-    box-shadow: 5px 5px 15px;
+    box-shadow: 5px 5px 50px;
 }
 
 .nav-links-container
@@ -68,6 +68,10 @@
     border: none;
     border-radius: 20px;
 
+}
+.downloadButton:hover
+{
+    background-color: #03a889
 }
 /* Navigation styles ends here */
 
@@ -165,6 +169,13 @@
     white-space: nowrap;
     color: #767676;
 }
+.footer-link
+{
+    
+    /* text-decoration: none;
+    white-space: nowrap;
+    color: #767676; */
+}
 /* .copyright-info
 {
     width: 20%;
@@ -190,4 +201,15 @@
     width: 15%;
     margin: 25px;
 } */
+.footer-link-container
+{
+    list-style: none;
+    display: inline;
+}
+.footer-link:hover
+{
+    transform: scale(1.1);
+    color: #333;
+}
+
 /* Footer styles ends here */
