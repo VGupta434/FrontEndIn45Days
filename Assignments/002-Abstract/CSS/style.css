@@ -1,0 +1,182 @@
+body
+{
+    font-family: sans-serif;
+}
+.navigation-bar
+{
+    display: flex; 
+    align-items: center;
+    justify-content:space-between ;
+    background-color: black;
+    padding: 0.2% 10%;
+}
+.abstract-text
+{
+    color: white;
+    font-size: x-large;
+}
+.help-center-link
+{
+    color: white;
+    font-size: x-large;
+    text-decoration: none;
+}
+.help-center-link:hover
+{
+    text-decoration: underline;
+}
+
+.navigation-bar div
+{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.right-container
+{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    gap: 10px;
+}
+
+.submit-request-button
+{
+    height: 60px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+    border-radius: 10px;
+    padding: 2px 20px;
+}
+.sign-in-button
+{
+    color: white;
+    background-color: #4C5FD5;
+    border-radius: 10px;
+    height: 60px;
+    font-size: x-large;
+    padding: 2px 30px;
+}
+.sign-in-button:hover
+{
+    background-color: white;
+    color: black;
+}
+.search-section
+{
+    background-color: #dadbf1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-section-container
+{
+    text-align: center;
+}
+.search-section-container h1
+{
+    font-size: 5rem;
+    font-weight: 540;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+}
+.search-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.search-box
+{
+    position: relative;
+    margin-bottom: 150px;
+}
+#search-area
+{
+    height: 3rem;
+    width: 60rem;
+    border: none;
+}
+button[type="submit"]
+{
+    position: relative;
+    height: 3.12rem;
+    width: 3rem;
+    background-color: #ffffff;
+    border: none;
+}
+
+.search-box form
+{
+    align-items: center;
+    display: flex;
+}
+.content-area img
+{
+    height: 100px;
+    width: 100px;
+}
+
+.content-area
+{
+    display: flex;
+    padding: 100px;
+}
+
+.content-area ul
+{
+    /* display: flex; */
+    list-style: none;
+}
+
+.content-area-element
+{
+    display: flex;
+}
+
+.content-area-element-text
+{
+    margin: 10px;
+    font-size: large;
+}
+
+.content-area-element-img
+{
+    margin: 20px;
+}
+.content-area-container li
+{
+    margin: 20px;
+}
+.footer-area
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+.footer-element-container
+{
+    padding: 0px;
+    list-style: none;
+    
+}
+.outer-footer-element-container a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.outer-footer-element-container a:hover
+{
+    text-decoration: underline;
+}
+.outer-footer-element-container
+{
+    margin: 20px 100px;
+}
